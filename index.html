@@ -6,8 +6,8 @@
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-3.3.1.js"></script>
     <script src="js/scripts.js"></script>
-
   </head>
+
   <body>
     <div class="container">
       <div class="jumbotron">
@@ -18,28 +18,28 @@
         <form id="criteria">
           <label for="size">Company Size</label>
           <select id="size">
-            <option value="blank">Choose one:</option>
+            <option value="choose">Choose one:</option>
             <option value="large">Large/Enterprise</option>
             <option value="small">Small/Start-Up</option>
           </select><br>
 
           <label for="where">Where do you want to work?</label>
           <select id="where">
-            <option value="blank">Choose one:</option>
+            <option value="choose">Choose one:</option>
             <option value="city">City</option>
             <option value="town">Small Town</option>
           </select><br>
 
           <label for="area">Front or back?</label>
           <select id="area">
-            <option value="blank">Choose one:</option>
+            <option value="choose">Choose one:</option>
             <option value="front">Front End & User Interface</option>
             <option value="back">Back End & Database</option>
           </select><br>
 
           <label for="what">What do you want to work on?</label>
           <select id="what">
-            <option value="blank">Choose one:</option>
+            <option value="choose">Choose one:</option>
             <option value="apps">Web Apps</option>
             <option value="security">Security</option>
             <option value="android">Android</option>
@@ -49,18 +49,18 @@
 
           <label for="">Choose the statement that best describes you. I want to:</label>
           <select id="goal">
-            <option value="blank">Choose one:</option>
+            <option value="choose">Choose one:</option>
             <option value="money">Make lots of money</option>
-            <option value="webdev">Build beautiful things</option>
-            <option value="man">Stick it to the man</option>
+            <option value="dev">Build beautiful things</option>
           </select><br>
+        </form>
 
       <button type="submit" class="btn">Submit</button>
 
       <div id=result>
-      <h3 class="bg-success">You should learn <span id="match"></span></h3>
-      <p class="text-danger"> Remember:
-        The most important thing is to get the basic principles of coding down, practice a lot, and be ready to change to another language when your job inevitably does.</p>
+        <h3 class="bg-success">You should learn <span id="match"></span></h3>
+        <p class="text-danger"> Remember:
+          The most important thing is to get the basic principles of coding down, practice a lot, and be ready to change to another language when your job inevitably does.</p>
       </div>
 
     </div>
