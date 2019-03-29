@@ -15,14 +15,54 @@
           <p class="lead">What Programming Language Should You Learn?</p>
         </div>
 
-      <form>
+        <form id="criteria">
+          <label for="size">Company Size</label>
+          <select id="size">
+            <option value="blank">Choose one:</option>
+            <option value="large">Large/Enterprise</option>
+            <option value="small">Small/Start-Up</option>
+          </select><br>
 
+          <label for="where">Where do you want to work?</label>
+          <select id="where">
+            <option value="blank">Choose one:</option>
+            <option value="city">City</option>
+            <option value="town">Small Town</option>
+          </select><br>
 
-      </form>
-      <blockquote class="blockquote">
-        <h3>Remember:</h3>
-        <p class="mb-0">The most important thing is to get the basic principles of coding down, practice a lot, and be ready to change to another language when your job inevitably does. </p>
-      </blockquote>
+          <label for="area">Front or back?</label>
+          <select id="area">
+            <option value="blank">Choose one:</option>
+            <option value="front">Front End & User Interface</option>
+            <option value="back">Back End & Database</option>
+            <option value="anything">I'm versitile</option>
+          </select><br>
+
+          <label for="what">What do you want to work on?</label>
+          <select id="what">
+            <option value="blank">Choose one:</option>
+            <option value="apps">Web Apps</option>
+            <option value="town">Security</option>
+            <option value="town">Android</option>
+            <option value=""></option>
+          </select><br>
+
+          <label for="">I want to:</label>
+          <select id="goal">
+            <option value="blank">Choose one:</option>
+            <option value="money">Make lots of money</option>
+            <option value="town">Make beautiful websites</option>
+            <option value="town">Stick it to the man</option>
+          </select><br>
+
+      <button type="submit" class="btn">Submit</button>
+
+      <div id=result>
+      <h2>You should learn <span id="match">></span>!</h2>
+      <p class="text-danger"> Remember:
+        The most important thing is to get the basic principles of coding down, practice a lot, and be ready to change to another language when your job inevitably does.</p>
+      </div>
+
     </div>
   </body>
 </html>

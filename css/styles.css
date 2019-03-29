@@ -2,11 +2,6 @@
   text-align: center;
 }
 
-.blockquote {
-  text-align: center;
-  background-color: pink;
-  position:fixed;
-  left:0px;
-  bottom:0px;
-  width:100%;
+#result {
+  display: none;
 }
