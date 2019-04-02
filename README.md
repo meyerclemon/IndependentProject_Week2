@@ -10,6 +10,7 @@ _This webpage contains a Track Suggester form using HTML, CSS Bootstrap, JavaScr
 
 ## Setup/Installation Requirements
 
+* Thru browser, visit URL: https://meyerclemon.github.io/IndependentProject_Week2/
 * Clone repository from GitHub
 * Open an HTML server on top of cloned directory
 * Open .html file through browser.
