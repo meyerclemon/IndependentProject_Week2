@@ -4,10 +4,10 @@ $(document).ready(function(){
 
 
     var companySize = $("select#companySize").val();
-    var where = $('select#where').val();
-    var stackArea = $('select#stackArea').val();
-    var interest = $('select#interest').val();
-    var goal = $('select#goal').val();
+    var location = $("select#location").val();
+    var stackArea = $("select#stackArea").val();
+    var interest = $("select#interest").val();
+    var goal = $("select#goal").val();
 
 if (stackArea === "back") {
       match =
@@ -27,7 +27,7 @@ if (stackArea === "back") {
 
     }
 
-    if(companySize === 'choose'|| where === 'choose'||stackArea === 'choose'||interest === 'choose'||goal === 'choose') {
+    if(companySize === "choose"|| location === "choose"||stackArea === "choose"||interest === "choose"||goal === "choose") {
               alert("Please choose an answer for each field!");
     }
 
